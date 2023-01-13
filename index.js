@@ -8,7 +8,7 @@ const io = new Server(server);
 const port = 3000
 
 
-
+//database mock
 let comments = c
 
 
