@@ -39,7 +39,23 @@ io.on('connect', (socket) => {
         }
 
     });
+
+    socket.on('setSeenArray', (msg) => {
+        console.log('message array of ids', msg)
+        const ids = JSON.parse(msg)
+        console.log(ids)
+        ids.forEach(element => {
+            const itemIdx = comments.findIndex((c) => c._id == element._id)
+            if (itemIdx != -1) {
+                const seenBy = comments[itemIdx].seenBy != undefined ? comments[itemIdx].seenBy : []
+                seenBy.push(userId)
+                Object.assign(comments[itemIdx], { seenBy })
+            }
+
+        });
+    })
 });
+
 
 server.listen(port, () => {
     console.log(`Example app listening on port ${port}`)

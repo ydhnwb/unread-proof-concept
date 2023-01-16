@@ -9,6 +9,7 @@ const comments = [
         "module": "63bd33f29b789000087be89d",
         "createdDate": "2023-01-11T13:36:22.872Z",
         "updatedDate": "2023-01-11T13:36:22.872Z",
+        "seenBy": ["1"]
     },
     {
         "_id": "2",
@@ -20,6 +21,7 @@ const comments = [
         "module": "63bd33f29b789000087be89d",
         "createdDate": "2023-01-11T13:36:22.872Z",
         "updatedDate": "2023-01-11T13:36:22.872Z",
+        "seenBy": ["1"]
     },
 
     {
@@ -32,6 +34,7 @@ const comments = [
         "module": "63bd33f29b789000087be89d",
         "createdDate": "2023-01-11T13:36:22.872Z",
         "updatedDate": "2023-01-11T13:36:22.872Z",
+        "seenBy": ["1"]
     },
 
     {
@@ -44,6 +47,7 @@ const comments = [
         "module": "63bd33f29b789000087be89d",
         "createdDate": "2023-01-11T13:36:22.872Z",
         "updatedDate": "2023-01-11T13:36:22.872Z",
+        "seenBy": ["1"]
     },
     {
         "_id": "5",
