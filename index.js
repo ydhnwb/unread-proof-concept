@@ -53,6 +53,8 @@ io.on('connect', (socket) => {
             }
 
         });
+
+        io.emit('update', 'there is data changes on comments.');
     })
 });
 
